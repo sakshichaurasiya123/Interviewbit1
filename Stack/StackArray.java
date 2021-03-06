@@ -34,7 +34,7 @@ public class StackArray{
         }
         return arr[--top];
     }
-    public int top(){
+    public static int top(){
         if(arr.length==0){
             System.out.println("In stack doean't have items");
             return Integer.MIN_VALUE;
@@ -50,10 +50,10 @@ public class StackArray{
      insert(7);
      insert(19);
      System.out.println("Top Element of Stack : "+top());
-     System.out.println(remove());
-     System.out.println(remove());
-     System.out.println(remove());
-     System.out.println(remove());
-     System.out.println(remove());
+     System.out.println("Removed Element : "+remove());
+     System.out.println("Removed Element : "+remove());
+     System.out.println("Removed Element : "+remove());
+     System.out.println("Removed Element : "+remove());
+     System.out.println("Removed Element :  "+remove());
     }
 }
